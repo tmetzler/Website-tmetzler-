@@ -1,0 +1,140 @@
+.body{
+    position: absolute; left: 0%; bottom: 0%;
+    width: 100%; height: 100%;
+    margin-left: 0;
+    z-index: -3;
+}
+.headdiv{
+    position: sticky; left: 0; top: 0;
+    width: 100%; height: 42%;
+    background-color: #979797;
+    overflow: hidden; 
+    align-items: center;
+    z-index: 1;
+}
+.headvideo{
+    position: absolute; left: 0; top: 0%; 
+    width: 100%; height: 100%; 
+    background-color: #979797;
+}
+.bodydiv{
+    position: absolute; left: 0%; top: 42%;
+    width: 100%; height: 100%;
+    background-color: azure;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.button{
+    left: 10%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 30px;
+    color: black;
+    border: none;
+    transition: font-weight 0.3s;
+    font-weight: normal;
+}
+.button:hover{
+    content: attr(data-text);
+    font-weight: bold;
+}
+.menu{
+    position: absolute;
+    height: 70px;
+    top: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.generated-div {
+    background-color: #4f8799;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.generated-div > * {
+    max-width: 100%;
+}
+
+/* Markdown-specific styles */
+.generated-div h1, .generated-div h2, .generated-div h3, .generated-div h4, .generated-div h5, .generated-div h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.generated-div h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #ffffff3d;
+    padding-bottom: 0.3em;
+}
+
+.generated-div h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #ffffff3d;
+    padding-bottom: 0.3em;
+}
+
+.generated-div p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.generated-div ul, .generated-div ol {
+    padding-left: 2em;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.generated-div code {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 0.2em 0.4em;
+    font-family: monospace;
+}
+
+.generated-div pre {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.generated-div a {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+.generated-div a:hover {
+    color: #ffffff;
+}
+
+
+
+.divcontainer {
+    position: absolute;
+    top: 100px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
